@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 03/05/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 altura:real
 peso:real
@@ -11,19 +11,18 @@ inicio
 escreval("Digite a sua altura")
 leia(altura)
 
-escreval("Qual é o seu sexo")
+escreval("Qual Ã© o seu sexo")
 escreval("M")
 escreval("H")
 leia(sexo)
 escolha sexo
-caso "sim"
 
 se sexo = "M' entao
    peso <- (62.1 * altura ) -44.7
  senao
    peso <- (72.7 * altura ) -58;
         
- escreva ("O peso ideal de acordo da sua altura e sexo é de" , peso)
+ escreva ("O peso ideal de acordo da sua altura e sexo Ã© de" , peso)
         
    fimse
 
