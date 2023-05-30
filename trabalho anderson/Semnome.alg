@@ -15,8 +15,6 @@ escreval("Qual é o seu sexo")
 escreval("M")
 escreval("H")
 leia(sexo)
-escolha sexo
-
 se sexo = "M' entao
    peso <- (62.1 * altura ) -44.7
  senao
